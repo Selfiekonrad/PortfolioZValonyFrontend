@@ -1,0 +1,51 @@
+.username {
+    text-align: center; /* Center the username text horizontally */
+}
+
+.settings-button {
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+/* Profile image styles */
+.profile-picture {
+    border-radius: 100%; /* Make the image circular by setting a 100% border radius */
+    display: block; /* Make the image behave as a block-level element */
+    margin: -20px auto 0; /* Center the image horizontally and puts it a little bit higher */
+}
+
+.user-navigation-buttons-left-column {
+    text-decoration: none; /* Remove the underline from the navigation links */
+    color: black; /* Set the link color to black */
+    display: block; /* Make each navigation link take up the full width of the container */
+    margin-bottom: -6px; /* Add negative margin to reduce spacing between the links */
+}
+
+.horizontal-separator {
+    border-top: 2px solid #DBDBDB; /* Add a vertical separator with a light gray border */
+    align-self: center; /* Center the separator vertically within the flex container */
+}
+
+.two-buttons-horizontal {
+    display: flex;
+}
+
+.add-button {
+    margin-top: -8px;
+}
+
+a {
+    font-family: sans-serif;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    font-weight: 600;
+    font-size: 17px;
+    font-family: sans-serif;
+    list-style: none;
+    margin-bottom: 10px;
+}

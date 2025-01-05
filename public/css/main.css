@@ -1,0 +1,31 @@
+.column-container {
+    display: flex; /* Use flexbox to layout the container as columns (flex items) */
+    height: 100vh; /* Make the container take the full height of the viewport */
+}
+
+.vertical-separator {
+    border-left: 2px solid #DBDBDB; /* Add a vertical separator with a light gray border */
+    margin: 10px; /* Add spacing around the separator */
+    height: 95%; /* Set the height of the separator to 95% of its parent container */
+}
+
+/* Left column styles */
+.column-left {
+    width: 220px; /* Fix the width of the left column */
+    height: 100vh; /* Ensure the left column also spans the full height of the viewport */
+
+}
+
+.navigation-container {
+    padding-top: 10px; /* Add spacing above the navigation container */
+    padding-left: 15px; /* Add spacing to the left of the navigation links */
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}

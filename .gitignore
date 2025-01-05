@@ -1,0 +1,22 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# User-specific files
+.idea/*.user
+.idea/*.user.xml
+.idea/*_*.iml
+
+# Build output
+/out/
+target/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.log.*

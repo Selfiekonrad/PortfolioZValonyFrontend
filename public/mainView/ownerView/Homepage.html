@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8"> <!-- Specify character encoding for proper text rendering -->
+    <title>Portfolio z Valony</title> <!-- Page title displayed in the browser tab -->
+    <link rel="stylesheet" href="../../css/main.css"> <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="../../css/ownerView/leftColumnUser.css"> <!-- Link to the external CSS file for styling -->
+    <link rel="stylesheet" href="../../css/singleProject/singleProject.css">
+    <script type="text/javascript" src="../../js/DataRetrieving.js"></script>
+</head>
+
+<body>
+
+<!-- Container holding all the content of the page -->
+<div class="column-container">
+
+    <!-- Left column containing user profile, navigation, etc. -->
+    <div class="column-left">
+
+        <!-- Settings button linking to the account settings page -->
+        <a href="">
+            <img class="settings-button" src="https://cdn-icons-png.flaticon.com/512/11890/11890658.png"
+                 width="25" height="25" alt=""> <br>
+        </a>
+
+
+        <!-- Profile image and username section -->
+        <div>
+            <!-- Profile image -->
+            <img class="profile-picture" src="https://imgs.search.brave.com/1SHhyDRiWnFIhZRgOcCWcKUSKU7YKNsX0F1T3R0mPkI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pY2hl/Zi5iYmNpLmNvLnVr/L2ltYWdlcy9pYy80/ODB4bi9wMGprY3do/cy5qcGcud2VicA"
+                 width="160" height="160" alt="">
+            <!-- Username -->
+            <p class="username">Selfiekonrad</p> <!-- Display the username under the image -->
+        </div>
+
+        <!-- Navigation links container -->
+        <div class="navigation-container">
+            <!-- Individual navigation links, each with the class "user-navigation-buttons-left-column" -->
+            <a href="" class="user-navigation-buttons-left-column">about me</a> <br>
+            <a href="" class="user-navigation-buttons-left-column">projects</a> <br>
+
+            <!-- container for favourites -->
+            <div>
+                <div class="two-buttons-horizontal">
+                    <a href="" class="user-navigation-buttons-left-column">my favourites:</a>
+                    <a href="" class="add-button">
+                        <img src="https://cdn-icons-png.flaticon.com/512/16567/16567729.png" height="30" width="30" alt="">
+                    </a>
+                    <br>
+                </div>
+
+                <!-- horizontal separator -->
+                <div class="horizontal-separator"></div>
+
+                <ul>
+                    <!-- List of items under the 'my favourites' section -->
+                    <li>Android Weather App</li>
+                    <li>Facebook Messenger</li>
+                    <li>YouTube Shorts</li>
+                </ul>
+            </div>
+
+            <!-- container for contact -->
+            <div>
+
+                <div class="two-buttons-horizontal">
+                    <a href="" class="user-navigation-buttons-left-column">contact:</a>
+                    <a href="" class="add-button">
+                        <img src="https://cdn-icons-png.flaticon.com/512/16567/16567729.png" height="30" width="30" alt="">
+                    </a>
+                    <br>
+                </div>
+
+                <!-- horizontal separator -->
+                <div class="horizontal-separator"></div>
+
+                <ul>
+                    <!-- List of contact options -->
+                    <li>LinkTree</li>
+                    <li>LinkedIn</li>
+                    <li>E-Mail</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Vertical separator between the left and right columns -->
+    <div class="vertical-separator"></div>
+
+    <!-- Right column, which contains the main content, like projects or other content -->
+    <div class="column-right" id="project-container">
+
+    </div>
+
+</div>
+
+</body>
+</html>
