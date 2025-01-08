@@ -1,0 +1,76 @@
+.add-button{
+    align-self: flex-end;
+    position: relative;
+    margin: 2px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: dimgrey;
+}
+
+
+.add-field-text-space-label{
+    height: 5%;
+    width: 100%;
+    margin: 8%;
+}
+
+.add-field-name{
+    margin: 8%;
+    height: 5%;
+    width: 100%;
+
+}
+
+.add-area{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    width: 90%;
+    align-self: center;
+    margin: 5%;
+}
+
+.add-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 3px;
+    height: 80%;
+
+}
+
+.add-box-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-box-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.add-top-text{
+    text-align: center;
+}
+
+.add-bottom-text-box{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+}
+
+.add-bottom-text{
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+
+.add-project-select{
+    margin: 8%;
+    width: 100%;
+}
