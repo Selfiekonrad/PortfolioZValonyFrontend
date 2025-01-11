@@ -66,20 +66,9 @@
     line-break: loose;
     font-size: medium;
     margin: 14px;
-    height: 290px;
-
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 16;
-
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 .project-box{
-    width: 80%;
-    height: 400px;
-    margin-bottom: 12px;
     border-radius: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 5px 10px;
@@ -101,9 +90,4 @@
 .project-go-back-button{
     text-decoration: none;
     margin: 10px;
-}
-
-.project-name{
-    text-decoration: none;
-    color: black;
 }
